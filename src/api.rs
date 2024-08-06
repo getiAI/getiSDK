@@ -50,7 +50,7 @@ pub async fn simulate_api_call(contracts: Vec<PathBuf>, markdown_content: String
         form = form.part("contracts", part);
     }
 
-    let response = client.post("http://localhost:3000/api/audit")
+    let response = client.post("https://getibackend.onrender.com/api/audit")
         .multipart(form)
         .send()
         .await;
