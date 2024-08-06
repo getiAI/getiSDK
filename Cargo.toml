@@ -1,13 +1,13 @@
 [package]
 name = "geti"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Rapha raphalrapha@gmail.com"]
 description = "A tool for auditing Arbitrum stylus Rust smart contracts"
 license = "MIT"
-repository = "https://github.com/yourusername/geti"
-homepage = "https://github.com/yourusername/geti"
-documentation = "https://docs.rs/geti"
+repository = "https://github.com/getiAI/getiSDK"
+homepage = "https://github.com/getiAI"
+documentation = "https://github.com/getiAI/getiSDK/blob/main/README.md"
 readme = "README.md"
 
 [dependencies]
